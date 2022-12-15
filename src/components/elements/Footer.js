@@ -29,26 +29,7 @@ const Footer = ({ menuData, menuFooterData }) => {
         aria-label="Extras Menu"
       >
         <li className="col-lg-6 nav-item text-align-left fs-7 mt-2 px-2">
-          <Search />
-        </li>
-        <li className="nav-item text-align-left w-100 fs-7 mt-4">
-          <ul className="list-unstyled d-flex flex-column flex-md-row">
-            <li className="">
-              <a href="#top" className="col nav-link text-white">
-                Site Directory
-              </a>
-            </li>
-            <li className="">
-              <a href="#top" className="col nav-link  text-white">
-                Shipping & Returns
-              </a>
-            </li>
-            <li className="">
-              <a href="#top" className="col nav-link  text-white">
-                Privacy Policy
-              </a>
-            </li>
-          </ul>
+          <Search addClass="mt-2" />
         </li>
         <li
           className="nav-item text-align-left w-100 fs-7 mt-4"
@@ -57,37 +38,22 @@ const Footer = ({ menuData, menuFooterData }) => {
           <p className="d-block w-100 text-white px-3 mb-1">Our Other Sites:</p>
           <ul className="list-unstyled d-flex flex-column flex-md-row justify-content-start">
             <li className="">
-              <a href="#top" className="nav-link text-white">
-                Cub Cadet
-              </a>
+              <a href="#top" className="nav-link text-white"></a>
             </li>
             <li className="">
-              <a href="#top" className="nav-link text-white">
-                Troy-Bilt
-              </a>
+              <a href="#top" className="nav-link text-white"></a>
             </li>
             <li className="">
-              <a href="#top" className="nav-link text-white">
-                Remington
-              </a>
+              <a href="#top" className="nav-link text-white"></a>
             </li>
             <li className="">
-              <a href="#top" className="nav-link text-white">
-                MTD Products Inc.
-              </a>
+              <a href="#top" className="nav-link text-white"></a>
             </li>
           </ul>
         </li>
-        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3">
-          MTD Products LLC P.O. Box 368022. Cleveland, OH 44136
-        </li>
-        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3">
-          If you experience any problems accessing this website, please call us
-          at 1-800-269-6215 for assistance.
-        </li>
-        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3">
-          Copyright © MTD 2021
-        </li>
+        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3"></li>
+        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3"></li>
+        <li className="nav-item text-align-left w-100 fs-7 mt-3 text-white px-3"></li>
       </ul>
     </nav>
   );

@@ -4,7 +4,7 @@
 @import "./_functions.scss";
 
 $mtd-parts-green: #059353;
-$ada-green: #06653a;
+$ada-green: #c7a62c;
 
 $bg-color: #262626;
 $body-color: #262626;
@@ -155,6 +155,10 @@ $hamburgerColor: #e1e1e1;
 
 .max-w-120 {
   max-width: em(120);
+}
+
+.max-w-300 {
+  max-width: em(300);
 }
 
 .max-w-160 {

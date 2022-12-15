@@ -1,4 +1,3 @@
-import MenuMain from "./Menu/Main";
 import MenuMainExtras from "./Menu/Extras";
 
 import { ReactComponent as Logo } from "../images/logo.svg";
@@ -26,7 +25,7 @@ const Nav = ({ menuData }) => {
       e.classList.toggle("d-none");
     });
     document.querySelector("body").classList.toggle("overflow-hidden");
-    document.querySelector("#main-nav-extras").classList.toggle("d-none");
+    // document.querySelector("#main-nav-extras").classList.toggle("d-none");
     document
       .querySelectorAll("header .has-submenu .subnav")
       .forEach(function (e) {
@@ -36,7 +35,7 @@ const Nav = ({ menuData }) => {
 
   return (
     <nav
-      className="bg-light box-shadow "
+      className="bg-black box-shadow py-1"
       aria-label="Main Nav"
       role="navigation"
       id="nav-main"
@@ -65,17 +64,15 @@ const Nav = ({ menuData }) => {
               <span className="visually-hidden">Toggle Navigation</span>
             </button>
           </li>
-          <li className="max-w-120 ms-2 px-1">
-            <a href="/" className="w-100" aria-label="Link to Home">
-              <Logo />
+          <li className="ms-2 px-1">
+            <a href="/" aria-label="Link to Home">
+              <Logo className="w-100" style={{}} />
             </a>
           </li>
-          <li className="ms-auto" id="main-nav-extras">
+          <li className="ms-auto w-100" id="main-nav-extras">
             <MenuMainExtras />
           </li>
         </ul>
-
-        <MenuMain {...{ menuData }} />
       </div>
     </nav>
   );
