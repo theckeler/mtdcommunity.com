@@ -3,20 +3,19 @@
 
 @import "./_functions.scss";
 
-$mtd-parts-green: #059353;
 $ada-green: #c7a62c;
 
-$bg-color: #262626;
-$body-color: #262626;
+$bg-color: #0b0b0b;
+$body-color: #0b0b0b;
 $btn-border-radius: rem(4px);
 $link-color: $ada-green;
-$nav-link-color: #262626;
+$nav-link-color: #0b0b0b;
 $transparent-color: transparent;
 $border-color: #d2d2d2;
 
 $theme-colors: (
   "primary": $ada-green,
-  "secondary": #262626,
+  "secondary": #0b0b0b,
   "success": $ada-green,
   "light": #e8e8e8,
   "dark": #d2d2d2,
@@ -29,7 +28,7 @@ $colors: (
 $nav-tabs-border-color: #d3d3d3;
 $nav-tabs-border-radius: 0;
 $nav-tabs-border-width: em(2);
-$nav-tabs-link-active-color: #262626;
+$nav-tabs-link-active-color: #0b0b0b;
 $nav-tabs-link-active-bg: #e0f4ed;
 $nav-tabs-link-active-border-color: $transparent-color $transparent-color
   $ada-green;
