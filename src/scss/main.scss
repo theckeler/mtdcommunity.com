@@ -18,7 +18,7 @@ $theme-colors: (
   "secondary": #0b0b0b,
   "success": $ada-green,
   "light": #e8e8e8,
-  "dark": #d2d2d2,
+  "dark": #232323,
 );
 
 $colors: (
@@ -222,5 +222,22 @@ body::-webkit-scrollbar {
 @include media-breakpoint-up(lg) {
   .w-md-75 {
     max-width: 75%;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .position-xxl-relative {
+    position: relative !important;
+  }
+
+  .position-xxl-fixed {
+    position: fixed !important;
+  }
+
+  .min-vh-xxl-auto,
+  .mh-xxl-auto,
+  .min-vh-0 {
+    min-height: 100vh !important;
+    max-height: 100vh !important;
   }
 }

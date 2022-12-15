@@ -35,14 +35,17 @@ const Nav = ({ menuData }) => {
 
   return (
     <nav
-      className="bg-black box-shadow py-1"
+      className="bg-dark box-shadow py-1"
       aria-label="Main Nav"
       role="navigation"
       id="nav-main"
     >
-      <div className="container-xxl">
+      <div className="container-fluid">
         <ul className="d-flex list-unstyled align-items-center py-2 px-1 mb-0">
-          <li className="main-menu-button max-w-48" id="main-menu-button">
+          <li
+            className="main-menu-button max-w-48 d-block d-xxl-none"
+            id="main-menu-button"
+          >
             <button
               aria-haspopup="true"
               aria-controls="main-menu"
@@ -70,7 +73,7 @@ const Nav = ({ menuData }) => {
             </a>
           </li>
           <li className="ms-auto w-100" id="main-nav-extras">
-            <MenuMainExtras />
+            <MenuMainExtras responsive={true} />
           </li>
         </ul>
       </div>

@@ -11,17 +11,41 @@ import MenuMain from "./elements/Menu/Main";
 const Index = () => {
   return (
     <>
-      <header className="position-fixed top-0 w-100" style={{ zIndex: "1001" }}>
-        <Nav {...{ menuData }} />
-        <MenuMain {...{ menuData }} />
+      <header
+        className="container-fluid position-fixed position-xxl-relative top-0 w-100 bg-dark"
+        style={{ zIndex: "1001" }}
+      >
+        <ul className="list-unstyled d-flex align-items-center flex-column w-100">
+          <li className="col-12 col-xxl-7">
+            <Nav {...{ menuData }} />
+            <MenuMain
+              {...{ menuData }}
+              addClass="position-relative position-xxl-fixed min-vh-100 min-w-100 mh-0 mh-xxl-auto max-vh-100 min-vh-0 min-vh-xxl-auto bg-white top-0 start-0"
+            />
+          </li>
+        </ul>
       </header>
-      <main role="main">
-        <Routes>
-          <Route index path="/" element={<Home />} />
-        </Routes>
+
+      <main className="container-fluid py-4" role="main">
+        <div
+          className="position-sticky top-0 w-0"
+          style={{ zIndex: "-1", height: "76px" }}
+        />
+        <ul className="list-unstyled d-flex align-items-center flex-column w-100">
+          <li className="col-12 col-xxl-7">
+            <Routes>
+              <Route index path="/" element={<Home />} />
+            </Routes>
+          </li>
+        </ul>
       </main>
-      <footer className="bg-black pb-5">
-        <Footer {...{ menuData, menuFooterData }} />
+
+      <footer className="bg-dark pb-5">
+        <ul className="list-unstyled d-flex align-items-center flex-column w-100">
+          <li className="col-12 col-xxl-7">
+            <Footer {...{ menuData, menuFooterData }} />
+          </li>
+        </ul>
       </footer>
     </>
   );
