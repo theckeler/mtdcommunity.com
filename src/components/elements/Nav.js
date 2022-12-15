@@ -34,12 +34,7 @@ const Nav = ({ menuData }) => {
   };
 
   return (
-    <nav
-      className="bg-dark box-shadow py-1"
-      aria-label="Main Nav"
-      role="navigation"
-      id="nav-main"
-    >
+    <nav className="py-1" aria-label="Main Nav" role="navigation" id="nav-main">
       <div className="container-fluid">
         <ul className="d-flex list-unstyled align-items-center py-2 px-1 mb-0">
           <li

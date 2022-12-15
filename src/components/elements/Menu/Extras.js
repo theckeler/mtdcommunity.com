@@ -1,4 +1,4 @@
-import Search from "../../elements/Search";
+//import Search from "../../elements/Search";
 
 import { ReactComponent as IconCart } from "../../images/cart.svg";
 import { ReactComponent as IconAccount } from "../../images/account.svg";
@@ -6,9 +6,9 @@ import { ReactComponent as IconAccount } from "../../images/account.svg";
 const Extras = ({ responsive }) => {
   return (
     <ul className="d-flex list-unstyled justify-content-end">
-      <li className="col-6 position-relative me-1">
+      {/* <li className="col-6 position-relative me-1">
         <Search addClass={responsive && "d-none d-lg-flex"} darkTheme={true} />
-      </li>
+      </li> */}
       <li className="col-6 max-w-48 position-relative me-1">
         <a href="#top" className="border-0 bg-white p-1 d-block rounded">
           <div
