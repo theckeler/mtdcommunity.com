@@ -25,7 +25,7 @@ const Footer = ({ menuData, menuFooterData }) => {
       <MenuFooter {...{ menuData, menuFooterData }} />
 
       <ul
-        className="viewport-width nav list-unstyled flex-column border-top"
+        className="viewport-width nav list-unstyled flex-column border-top mt-4"
         aria-label="Extras Menu"
       >
         <li className="col-lg-6 nav-item text-align-left fs-7 mt-2 px-2">

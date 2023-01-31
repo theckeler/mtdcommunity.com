@@ -7,6 +7,7 @@ import menuData from "./data/menu.json";
 import menuFooterData from "./data/menu-footer.json";
 import Footer from "./elements/Footer";
 import MenuMain from "./elements/Menu/Main";
+import RightNav from "./elements/RightNav";
 
 const Index = () => {
   return (
@@ -26,18 +27,11 @@ const Index = () => {
         </ul>
       </header>
 
-      <div className="position-relative position-xxl-fixed min-vh-100 min-w-100 mh-0 mh-xxl-auto max-vh-100 min-vh-0 min-vh-xxl-auto bg-white top-0 end-0 d-none d-xxl-block">
-        <div className="p-2">
-          <ul className="list-unstyled d-flex flex-column vh-100">
-            <li className="h-50">Chatter/Slack</li>
-            <li className="h-50 border-top">Chatter/Slack</li>
-          </ul>
-        </div>
-      </div>
+      <RightNav />
 
       <main className="container-fluid py-4" role="main">
         <div
-          className="position-sticky top-0 w-0"
+          className="position-sticky top-0 w-0 d-block d-xxl-none"
           style={{ zIndex: "-1", height: "76px" }}
         />
         <ul className="list-unstyled d-flex align-items-center flex-column w-100">

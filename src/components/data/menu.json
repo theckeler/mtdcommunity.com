@@ -6,196 +6,62 @@
     "addClass": "nav-link w-100 active"
   },
   {
-    "title": "Navigation Link",
+    "title": "Ordering",
     "url": "#top",
     "sub": [
       {
-        "title": "Sub Navigation",
+        "title": "Wholegoods",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
+        "title": "eDealer",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
+        "title": "Product Availability",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
+        "title": "Product Information",
         "url": "#top"
       }
     ]
   },
 
   {
-    "title": "Navigation Link",
+    "title": "Communication & Collaboration",
     "url": "#top",
     "sub": [
       {
-        "title": "Sub Navigation",
+        "title": "News",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
+        "title": "Chatter",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
+        "title": "Market Place",
         "url": "#top"
       }
     ]
   },
   {
-    "title": "Navigation Link",
+    "title": "Customers",
     "url": "#top",
     "sub": [
       {
-        "title": "Sub Navigation",
+        "title": "Customer List",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
+        "title": "Registration",
         "url": "#top"
       },
       {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
+        "title": "Bid/Fleet Submission",
         "url": "#top"
       }
     ]
-  },
-  {
-    "title": "Navigation Link",
-    "url": "#top",
-    "sub": [
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      },
-      {
-        "title": "Sub Navigation",
-        "url": "#top"
-      }
-    ]
-  },
-  {
-    "title": "Navigation Link",
-    "url": "#top"
-  },
-  {
-    "title": "Navigation Link",
-    "url": "#top"
   }
 ]
